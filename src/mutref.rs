@@ -17,3 +17,7 @@ fn demo_mutref() {
     println!("value of s1: {}", s1); // RUST -to-> hello
     println!("result is {}", x);
 }
+
+fn calculate_length(s: &String) -> usize {
+    return s.len();
+}
